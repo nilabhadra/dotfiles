@@ -1,0 +1,58 @@
+{
+  "breadcrumbs.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": true
+  },
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.fontFamily": "'JetBrains Mono',Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.fontVariations": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [
+    80
+  ],
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.allowedLocales": {
+    "bg": true
+  },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    ".env.*": "env",
+    "*.geojson": "json",
+    "*.njk": "nunjucks",
+    "*.webc": "html"
+  },
+  "files.autoSave": "onFocusChange",
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableCommitSigning": true,
+  "git.enableSmartCommit": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "html.format.indentHandlebars": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.preserveNewLines": false,
+  "markdown.preview.typographer": true,
+  "markdown-preview-github-styles.colorTheme": "light",
+  "markdown.updateLinksOnFileMove.enabled": "always",
+  "pandoc.docxOptString": "",
+  "pandoc.htmlOptString": "-s -t html5",
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.colorTheme": "Default Light Modern",
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.startupEditor": "newUntitledFile"
+}
