@@ -351,5 +351,21 @@
       "text": "Ē"
     },
     "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+v",
+    "command": "type",
+    "args": {
+      "text": "ḻ"
+    },
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+v",
+    "command": "type",
+    "args": {
+      "text": "Ḻ"
+    },
+    "when": "editorTextFocus"
   }
 ]

@@ -26,6 +26,9 @@
 | `alt` + `j`           | ñ       | `alt` + `shift` + `j`         | Ñ       |
 | `alt` + `s`           | ś       | `alt` + `shift` + `s`         | Ś       |
 | `alt` + `x`           | ṣ       | `alt` + `shift` + `x`         | Ṣ       |
+| `alt` + `v` *         | ḻ       | `alt` + `shift` + `v`         | Ḻ       |
+
+\* Vedic ळ
 
 ### Misc keybindings
 
