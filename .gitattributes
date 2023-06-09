@@ -216,6 +216,9 @@ makefile          text
 *.*ignore         text
 
 # Exclude files from exporting
+# https://git-scm.com/book/en/Customizing-Git-Git-Attributes#Exporting-Your-Repository
+.editorconfig     export-ignore
 .gitattributes    export-ignore
+.github           export-ignore
 .gitignore        export-ignore
 .gitkeep          export-ignore
