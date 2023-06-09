@@ -1,0 +1,63 @@
+[apply]
+# Detect whitespace errors when applying a patch.
+	whitespace = fix
+
+[github]
+  user = <username>
+
+[color]
+  ui = auto
+
+[core]
+  attributesFile = ~/.gitattributes
+  autocrlf = input
+	excludesfile = ~/.gitignore
+  precomposeunicode = false
+  trustctime = false
+  untrackedCache = true
+  whitespace = space-before-tab,indent-with-non-tab,trailing-space
+
+[fetch]
+	prune = true
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[help]
+	autocorrect = 1
+
+[init]
+	defaultBranch = main
+
+[merge]
+# Include summaries of merged commits in newly created merge commit messages.
+	log = true
+
+[pull]
+  rebase = true
+
+[push]
+# Make `git push` automatically push relevant
+# annotated tags when pushing branches out.
+  default = simple
+  followTags = true
+
+[user]
+# Do not guess the user's identity.
+  useConfigOnly = true
+
+# [!] DO NOT store sensitive information such as the Git user
+# credentials (`name` / `email`), or things such as the `signingkey`
+# in this file, add them in `~/.gitconfig.local`!
+
+[include]
+# Load local configs.
+# https://git-scm.com/docs/git-config#_includes
+#
+# [!] The following needs to remain at the end of this file in
+#     order to allow any of the above configs to be overwritten
+#     by the local ones
+  path = ~/.gitconfig.local
